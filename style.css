@@ -3,8 +3,23 @@
 
 html {
     height: auto;
+    background-color: #000000;
 }
 
-body {
+body{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    height: auto;
+    background-color: #cfcfcf;
     text-align: center;
+    border-bottom: solid 1px #000000;
+    margin: 0px;
+}
+
+.headerBtn{
+    width: 20%;
 }
