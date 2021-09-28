@@ -1,0 +1,10 @@
+@charset "utf-8";
+@media screen and (max-width:1300px) {}
+
+html {
+    height: auto;
+}
+
+body {
+    text-align: center;
+}
