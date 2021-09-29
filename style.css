@@ -35,3 +35,9 @@ header {
 .headerBtn {
     width: 20%;
 }
+
+footer{
+    height: 4%;
+    text-align: center;
+    background-color: #ffffff;
+}
