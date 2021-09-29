@@ -1,25 +1,37 @@
 @charset "utf-8";
+@font-face {
+    font-family: "custonFont";
+    src: url(Fonts/Logo-Type-Gothic.otf);
+}
+
 @media screen and (max-width:1300px) {}
 
 html {
     height: auto;
     background-color: #000000;
+    background-image: url("Images/icon.png");
 }
 
-body{
+p, h1, h2, h3, h4, h5, h6, small, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: "customFont";
+}
+
+body {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-header{
+header {
     height: auto;
+    margin: 0;
     background-color: #cfcfcf;
     text-align: center;
     border-bottom: solid 1px #000000;
-    margin: 0px;
 }
 
-.headerBtn{
+.headerBtn {
     width: 20%;
 }
