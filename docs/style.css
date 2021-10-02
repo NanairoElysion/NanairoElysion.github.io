@@ -10,6 +10,17 @@
         margin: 0 auto;
         background-color: #a0a0a0;
     }
+    #headerImage {
+        width: 100%;
+    }
+    .headerBtn {
+        width: 60%;
+        margin: 10px 0;
+        font-size: 18px;
+        border: solid 1px #b3b3b3;
+        background-color: #252525;
+        display: inline;
+    }
 }
 
 html {
@@ -36,9 +47,6 @@ body {
 header {
     height: auto;
     margin: 0;
-    /*  position: -webkit-sticky;
-    position: sticky;
-    top: 0;*/
     background-color: #000000;
     text-align: center;
     border-bottom: solid 1px #000000;
