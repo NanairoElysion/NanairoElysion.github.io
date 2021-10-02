@@ -4,24 +4,7 @@
     src: url(Fonts/Logo-Type-Gothic.otf);
 }
 
-@media screen and (max-width:1300px) {
-    body {
-        width: 80%;
-        margin: 0 auto;
-        background-color: #a0a0a0;
-    }
-    #headerImage {
-        width: 100%;
-    }
-    .headerBtn {
-        width: 60%;
-        margin: 10px 0;
-        font-size: 18px;
-        border: solid 1px #b3b3b3;
-        background-color: #252525;
-        display: inline;
-    }
-}
+
 
 html {
     height: auto;
@@ -137,7 +120,7 @@ main {
     /*  border: solid 1px #000000;*/
 }
 
-#charDescription .pageTitle{
+#charDescription .pageTitle {
     border-bottom: double 4px #ffffff;
 }
 
@@ -147,4 +130,23 @@ footer {
     text-align: center;
     background-color: #000000;
     border-top: solid 1px #ffffff;
+}
+
+@media screen and (max-width:1300.1px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #a0a0a0;
+    }
+    #headerImage {
+        width: 80%;
+    }
+    .headerBtn {
+        width: 60%;
+        margin: 6px 0;
+        font-size: 18px;
+        border: solid 1px #b3b3b3;
+        background-color: #252525;
+        display: inline;
+    }
 }
