@@ -30,6 +30,7 @@ body {
 header {
     height: auto;
     margin: 0;
+    padding-bottom: 5px;
     background-color: #000000;
     text-align: center;
     border-bottom: solid 1px #000000;
@@ -64,6 +65,7 @@ main {
 .descriptionArea {
     width: 80%;
     margin: 0 auto;
+    padding: 20px;
     text-align: center;
 }
 
