@@ -134,6 +134,30 @@ main {
     max-height: 100%;
 }
 
+.downloadBox {
+    width: 60%;
+    display: inline-block;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.downloadBox h2 {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.downloadBox img {
+    width: 30%;
+    max-height: 100%;
+    float: left;
+    margin-right: 20px;
+}
+
+.downloadBox a {
+    width: 20%;
+    vertical-align: text-bottom;
+}
+
 .productTitle {
     color: #000000;
     border-top: solid 1px #000000;
