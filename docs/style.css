@@ -74,10 +74,24 @@ main {
 }
 
 .descriptionArea {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
+}
+
+.topPageContents {
+    display: inline-block;
+    width: 45%;
+    vertical-align: text-top;
+    border: solid 1px #aaaaaa;
+    padding: 4px 0;
+}
+
+.topPageContentsTitle {
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+    border-bottom: solid 1px #aaaaaa;
 }
 
 .pageTitle {
