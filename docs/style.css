@@ -4,8 +4,6 @@
     src: url(Fonts/Logo-Type-Gothic.otf);
 }
 
-
-
 html {
     height: auto;
     margin: 0;
@@ -14,7 +12,16 @@ html {
     /*  background-image: url("Images/bgimage.png");*/
 }
 
-p, h1, h2, h3, h4, h5, h6, small, li, a {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small,
+li,
+a {
     margin: 0;
     padding: 0;
     font-family: "customFont";
@@ -38,6 +45,10 @@ header {
 
 #headerImage {
     width: 30%;
+}
+
+#topImage {
+    width: 100%;
 }
 
 #headerImage:hover {
