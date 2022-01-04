@@ -134,7 +134,7 @@ footer {
     border-top: solid 1px #ffffff;
 }
 
-@media screen and (max-width:1300.1px) {
+@media screen and (max-width:800.1px) {
     body {
         width: 100%;
         margin: 0 auto;
