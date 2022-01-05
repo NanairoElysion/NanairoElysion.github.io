@@ -146,16 +146,22 @@ main {
     vertical-align: text-top;
 }
 
-.downloadBox img {
+.downloadBox .thumbnail {
     width: 30%;
     max-height: 100%;
     float: left;
     margin-right: 20px;
 }
 
-.downloadBox a {
+.downloadBox div {
+    display: inline-block;
     width: 20%;
     vertical-align: text-bottom;
+}
+
+.downloadBox div img {
+    width: 100%;
+    bottom: 0;
 }
 
 .productTitle {
