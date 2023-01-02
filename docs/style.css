@@ -256,7 +256,10 @@ label{
 #kikyoInput:checked~#kikyo,
 #kuyaInput:checked~#kuya,
 #kodamaInput:checked~#kodama,
-#yodukiInput:checked~#yoduki{
+#yodukiInput:checked~#yoduki,
+#kumoInput:checked~#kumo,
+#futagoInput:checked~#futago,
+#hoozukiInput:checked~#hoozuki{
     display: block;
 }
 
