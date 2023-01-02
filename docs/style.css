@@ -197,6 +197,75 @@ footer {
     border-top: solid 1px #ffffff;
 }
 
+.tabItemOfContent {
+    width: fit-content;
+}
+
+.tabItem {
+    width: calc(100%/6);
+    margin-top: 20px;
+    border-top: 2px solid #bebebe;
+}
+
+.tabItem,
+.tabItemOfContent {
+    font-weight: bold;
+    height: auto;
+    border-bottom: 2px solid #bebebe;
+    border-left: 1px solid #bebebe;
+    border-right: 1px solid #bebebe;
+    box-sizing: border-box;
+    background-color: #ebebee;
+    font-size: 150%;
+    text-align: center;
+    display: block;
+    float: left;
+    padding: 10px 0;
+    /*transition: all 0.2s ease;*/
+}
+
+.tabItemOfContent:hover,
+.tabItem:hover {
+    background-color: #bebebe;
+}
+
+input {
+    display: none;
+    margin: auto;
+}
+
+label{
+    margin: auto;
+}
+
+#inputContainer{
+    display: flex;
+    align-items: center;
+    height: fit-content;
+}
+
+.tabContent {
+    display: none;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
+#rinneInput:checked~#rinne,
+#kikyoInput:checked~#kikyo,
+#kuyaInput:checked~#kuya,
+#kodamaInput:checked~#kodama,
+#yodukiInput:checked~#yoduki{
+    display: block;
+}
+
+#content input:checked+.tabItem,
+#content input:checked+.tabItemOfContent {
+    background-color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
 @media screen and (max-width:800.1px) {
     body {
         width: 100%;

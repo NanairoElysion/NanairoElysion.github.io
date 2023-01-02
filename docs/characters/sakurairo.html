@@ -34,43 +34,140 @@
     </header>
 
     <main>
-        <div class="descriptionArea">
+        <div class="descriptionArea" id="content">
             <h1 class="pageTitle">桜色の常夜咄<br>登場人物</h1>
 
-            <button onclick="location.href='rinne.html'" class="picBtn">
+            <input id="rinneInput" type="radio" name="tabItemOfContent" checked>
+            <label class="tabItemOfContent" for="rinneInput">
                 <div class="picBox">
                     <img src="icons/rinne.png" alt="" class="innerPic">
                 </div>
                 <h2 class="productTitle">リンネ</h2>
-            </button>
+            </label>
 
-            <button onclick="location.href='kikyo.html'" class="picBtn">
+
+            <input id="kikyoInput" type="radio" name="tabItemOfContent">
+            <label class="tabItemOfContent" for="kikyoInput">
                 <div class="picBox">
                     <img src="icons/kikyo.png" alt="" class="innerPic">
                 </div>
                 <h2 class="productTitle">桔梗</h2>
-            </button>
+            </label>
 
-            <button onclick="location.href='kuya.html'" class="picBtn">
+
+            <input id="kuyaInput" type="radio" name="tabItemOfContent">
+            <label class="tabItemOfContent" for="kuyaInput">
                 <div class="picBox">
                     <img src="icons/kuya.png" alt="" class="innerPic">
                 </div>
                 <h2 class="productTitle">空也</h2>
-            </button>
+            </label>
 
-            <button onclick="location.href='kodama.html'" class="picBtn">
+
+            <input id="kodamaInput" type="radio" name="tabItemOfContent">
+            <label class="tabItemOfContent" for="kodamaInput">
                 <div class="picBox">
                     <img src="icons/kodama.png" alt="" class="innerPic">
                 </div>
                 <h2 class="productTitle">木霊</h2>
-            </button>
+            </label>
 
-            <button onclick="location.href='yoduki.html'" class="picBtn">
+            <input id="yodukiInput" type="radio" name="tabItemOfContent">
+            <label class="tabItemOfContent" for="yodukiInput">
                 <div class="picBox">
                     <img src="icons/yoduki.png" alt="" class="innerPic">
                 </div>
                 <h2 class="productTitle">夜月</h2>
-            </button>
+            </label>
+
+            <section class="tabContent" id="rinne">
+                <div class="descriptionArea">
+                    <img src="images/rinne.png" id="charImg">
+                    <div id="charDescription">
+                        <h1 class="pageTitle">リンネ</h1>
+                        <p>髪：白<br>
+                            目：アメジスト<br>
+                            <br>
+                            桔梗を樹海に連れて来た張本人。<br>
+                            セーブポイントの役割をするだけで、基本は傍観者。<br>
+                            詳細をなかなか明かさず、謎めいた存在。
+                        </p>
+                    </div>
+                    <br>
+                </div>
+            </section>
+
+
+            <section class="tabContent" id="kikyo">
+                <div class="descriptionArea">
+                    <img src="images/kikyo.png" id="charImg">
+                    <div id="charDescription">
+                        <h1 class="pageTitle">桔梗</h1>
+                        <p>髪：桔梗<br>
+                            目：深緑<br>
+                            <br>
+                            行方不明になっていた従兄を探しに樹海へやってきた陰陽師の女性。<br>
+                            気を読める能力を持っており、人込みなどでは酔ってしまうためあまり外に出たことがない。<br>
+                            攻撃よりも、相手の気を読み防御したりかわしたりするのが得意。
+                        </p>
+                    </div>
+                    <br>
+                </div>
+            </section>
+
+
+            <section class="tabContent" id="kuya">
+                <div class="descriptionArea">
+                    <img src="images/kuya.png" id="charImg">
+                    <div id="charDescription">
+                        <h1 class="pageTitle">空也</h1>
+                        <p>髪：黄金色<br>
+                            目：黄金色<br>
+                            <br>
+                            九尾の妖狐と人間の男性との間に生まれた半妖の少年。<br>
+                            生まれ故郷である幽世の里から出たことがなく、世間知らずの箱入り息子だった。<br>
+                            母が大妖怪なので潜在能力は一級品だが、平和ボケした生活をしていたため、戦闘は不得手。
+                        </p>
+                    </div>
+                    <br>
+                </div>
+            </section>
+
+
+            <section class="tabContent" id="kodama">
+                <div class="descriptionArea">
+                    <img src="images/kodama.png" id="charImg">
+                    <div id="charDescription">
+                        <h1 class="pageTitle">木霊</h1>
+                        <p>髪：萌黄～若草<br>
+                            目：不明<br>
+                            <br>
+                            全国各地の森林にいる木の精霊<br>
+                            幽世の里の門番のような役目を担っている。<br>
+                            仮面のせいか、表情はあまりよく読み取れない。
+                        </p>
+                    </div>
+                    <br>
+                </div>
+            </section>
+
+            <section class="tabContent" id="yoduki">
+                <div class="descriptionArea">
+                    <img src="images/yoduki.png" id="charImg">
+                    <div id="charDescription">
+                        <h1 class="pageTitle">夜月</h1>
+                        <p>髪：濡羽色<br>
+                            目：濡羽色<br>
+                            <br>
+                            幽世の里に住む烏天狗の女性。玉藻の従者の一人。<br>
+                            生真面目な性格で、屋敷の住民の世話を焼いている。<br>
+                            やや人間不信な面がある。
+                        </p>
+                    </div>
+                    <br>
+                </div>
+            </section>
+            <!--
 
             <button onclick="location.href='mahiru.html'" class="picBtn">
                 <div class="picBox">
@@ -86,16 +183,11 @@
                 <h2 class="productTitle">よなが</h2>
             </button>
 
-            <br>
+        -->
         </div>
-
     </main>
-
-    <aside>
-    </aside>
-
     <footer>
-        <p>(C) 2022 不知火燐火/T_SUM_U All rights reserved<br> (C) 2022 Rinka Shiranui/T_SUM_U All rights reserved</p>
+        <p>(C) 2022 不知火燐火/つむ All rights reserved<br> (C) 2022 Rinka Shiranui/T_SUM_U All rights reserved</p>
     </footer>
 </body>
 
