@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 @font-face {
     font-family: "customFont";
     src: url(Fonts/Logo-Type-Gothic.otf);
@@ -31,7 +32,7 @@ a {
 body {
     width: 80%;
     margin: 0 auto;
-    background-color: #616161;
+    background-color: #2e2e2e;
 }
 
 header {
@@ -79,12 +80,17 @@ header {
 main {
     height: auto;
     text-align: center;
+    display: flex;
 }
 
 .descriptionArea {
     width: 100%;
     margin: 0 auto;
     padding: 20px;
+    text-align: center;
+}
+
+.content{
     text-align: center;
 }
 
@@ -109,7 +115,7 @@ main {
 .picBtn {
     margin: 6px;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #999999;
     border: solid 2px #000000;
     width: auto;
     height: auto;
@@ -167,6 +173,7 @@ main {
 .productTitle {
     color: #000000;
     border-top: solid 1px #000000;
+    overflow: wrap;
 }
 
 #charImg {
@@ -197,9 +204,6 @@ footer {
     border-top: solid 1px #ffffff;
 }
 
-.tabItemOfContent {
-    width: fit-content;
-}
 
 .tabItem {
     width: calc(100%/6);
@@ -207,21 +211,18 @@ footer {
     border-top: 2px solid #bebebe;
 }
 
-.tabItem,
 .tabItemOfContent {
+    width: fit-content;
     font-weight: bold;
     height: auto;
     border-bottom: 2px solid #bebebe;
     border-left: 1px solid #bebebe;
     border-right: 1px solid #bebebe;
     box-sizing: border-box;
-    background-color: #ebebee;
+    background-color: #686868;
     font-size: 150%;
     text-align: center;
-    display: block;
-    float: left;
-    padding: 10px 0;
-    /*transition: all 0.2s ease;*/
+    display: inline-block;
 }
 
 .tabItemOfContent:hover,
@@ -229,27 +230,40 @@ footer {
     background-color: #bebebe;
 }
 
+.tabItemOfContent .picBox{
+    width: 80px;
+    height: 80px;
+}
+
+.tabItemOfContent .picBox .innerPic{
+    width: 80px;
+}
+
+.tabItemOfContent .productTitle{
+    font-size: 12pt;
+    color: #d8d8d8;
+}
+
 input {
     display: none;
     margin: auto;
 }
 
-label{
+label {
     margin: auto;
 }
 
-#inputContainer{
+#inputContainer {
     display: flex;
     align-items: center;
     height: fit-content;
 }
 
 .tabContent {
-    display: none;
     clear: both;
-    margin-left: auto;
-    margin-right: auto;
-    align-self: center;
+    display: none;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #rinneInput:checked~#rinne,
@@ -259,13 +273,13 @@ label{
 #yodukiInput:checked~#yoduki,
 #kumoInput:checked~#kumo,
 #futagoInput:checked~#futago,
-#hoozukiInput:checked~#hoozuki{
+#hoozukiInput:checked~#hoozuki {
     display: block;
 }
 
 #content input:checked+.tabItem,
 #content input:checked+.tabItemOfContent {
-    background-color: #ffffff;
+    background-color: #969696;
     border-bottom: 2px solid #ffffff;
 }
 
@@ -275,9 +289,11 @@ label{
         margin: 0 auto;
         background-color: #a0a0a0;
     }
+
     #headerImage {
         width: 80%;
     }
+
     .headerBtn {
         width: 60%;
         margin: 6px 0;
